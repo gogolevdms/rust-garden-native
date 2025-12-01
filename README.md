@@ -7,12 +7,17 @@ Install [Anchor framework](https://www.anchor-lang.com/docs/installation)
 
 **Getting Started**
 
-1. To build the program:  
+1. To setup dependencies:
+```bash
+yarn lock
+```
+
+2. To build the program:  
 ```bash
 anchor build
 ```
 
-2. To run the tests (This compiles the program and deploys it to a built-in test validator):  
+3. To run the tests (This compiles the program and deploys it to a built-in test validator):  
 ```bash
 anchor test
 ```
